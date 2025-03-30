@@ -1,0 +1,7 @@
+/moe_mltc/src/classification/__pycache__
+.DS_Store
+/moe_mltc/src/resources/data
+/moe_mltc/src/states/checkpoints
+moe_mltc/src/classification/train.log
+/moe_mltc/src/states/logs
+/moe_mltc/tests
