@@ -1,0 +1,52 @@
+# environment
+environment:
+  devices: 6
+
+# model
+model:
+  last_path: ""
+  model: nghuyong/ernie-3.0-base-zh
+  drop_prob: 0.1
+  hidden_size: 768
+  num_experts: 18
+  moe_intermediate_size: 768
+  target_size: 4
+  top_k: 64
+
+# data
+data:
+  label_dict: src/resources/configs/label_dict.json
+  train_path: src/resources/data/train.jsonl
+  dev_path: src/resources/data/dev.jsonl
+  test_path: src/resources/data/test.jsonl
+  max_length: 512
+  source_column: text
+  label_column: labels
+
+# log
+log:
+  log_dir: src/states/logs
+  log_name: model_performance
+  logging_steps: 20
+
+# save
+save:
+  save_dir: src/states/checkpoints
+  saved_model_dir: src/states/best_model
+
+# optimizer
+optimizer:
+  learning_rate: 5e-5
+  weight_decay: 0.0
+
+# scheduler
+scheduler:
+  warmup_ratio: 0.1
+
+# configs
+configs:
+  batch_size: 32
+  train_epochs: 5
+  gradient_accumulation_steps: 1
+  max_grad_norm: 3.0
+  valid_steps: 200

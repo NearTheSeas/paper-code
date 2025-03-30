@@ -1,0 +1,28 @@
+{
+    "label_value": {
+        "-2": "0",
+        "-1": "1",
+        "0": "2",
+        "1": "3"
+    },
+    "label_columns": [
+        "Location#Transportation",
+        "Location#Downtown",
+        "Location#Easy_to_find",
+        "Service#Queue",
+        "Service#Hospitality",
+        "Service#Parking",
+        "Service#Timely",
+        "Price#Level",
+        "Price#Cost_effective",
+        "Price#Discount",
+        "Ambience#Decoration",
+        "Ambience#Noise",
+        "Ambience#Space",
+        "Ambience#Sanitary",
+        "Food#Portion",
+        "Food#Taste",
+        "Food#Appearance",
+        "Food#Recommend"
+    ]
+}
