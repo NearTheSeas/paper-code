@@ -1,0 +1,70 @@
+nohup: ignoring input
+/home/chenghuadong.chd/.conda/envs/llm/lib/python3.10/site-packages/transformers/optimization.py:640: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+2025-04-12 12:35:53.475 | INFO     | __main__:train_and_evaluate:151 - global step: 0, epoch: 1, loss: 22.53741455078125
+The OrderedVocab you are attempting to save contains holes for indices [12084], your vocabulary could be corrupted !
+2025-04-12 12:35:55.976 | INFO     | __main__:train_and_evaluate:179 - evaluation dev datasets accuracy: 0.44084682440846823, precision: 0.22069825436408977, recall: 0.49859154929577465, F1: 0.3059636992221262
+The OrderedVocab you are attempting to save contains holes for indices [12084], your vocabulary could be corrupted !
+/home/chenghuadong.chd/.conda/envs/llm/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+2025-04-12 12:35:57.685 | INFO     | __main__:train_and_evaluate:210 - evaluation test datasets accuracy: 0.4701492537313433, precision: 0.23507462686567165, recall: 0.5, F1: 0.3197969543147208
+2025-04-12 12:36:01.609 | INFO     | __main__:train_and_evaluate:151 - global step: 20, epoch: 1, loss: 18.031848907470703
+2025-04-12 12:36:05.693 | INFO     | __main__:train_and_evaluate:151 - global step: 40, epoch: 1, loss: 13.112887382507324
+2025-04-12 12:36:09.712 | INFO     | __main__:train_and_evaluate:151 - global step: 60, epoch: 1, loss: 10.304813385009766
+2025-04-12 12:36:13.782 | INFO     | __main__:train_and_evaluate:151 - global step: 80, epoch: 1, loss: 8.645438194274902
+2025-04-12 12:36:17.722 | INFO     | __main__:train_and_evaluate:151 - global step: 100, epoch: 2, loss: 7.403987407684326
+The OrderedVocab you are attempting to save contains holes for indices [12084], your vocabulary could be corrupted !
+2025-04-12 12:36:20.273 | INFO     | __main__:train_and_evaluate:179 - evaluation dev datasets accuracy: 0.6089663760896638, precision: 0.6623475149465547, recall: 0.6352269869215291, F1: 0.5995712107737263
+The OrderedVocab you are attempting to save contains holes for indices [12084], your vocabulary could be corrupted !
+2025-04-12 12:36:22.277 | INFO     | __main__:train_and_evaluate:210 - evaluation test datasets accuracy: 0.6442786069651741, precision: 0.6768947963800905, recall: 0.6553767046724793, F1: 0.6364475756215098
+2025-04-12 12:36:26.034 | INFO     | __main__:train_and_evaluate:151 - global step: 120, epoch: 2, loss: 6.415033340454102
+2025-04-12 12:36:29.917 | INFO     | __main__:train_and_evaluate:151 - global step: 140, epoch: 2, loss: 5.649342060089111
+2025-04-12 12:36:33.944 | INFO     | __main__:train_and_evaluate:151 - global step: 160, epoch: 2, loss: 5.044310569763184
+2025-04-12 12:36:37.921 | INFO     | __main__:train_and_evaluate:151 - global step: 180, epoch: 3, loss: 4.561498165130615
+2025-04-12 12:36:41.836 | INFO     | __main__:train_and_evaluate:151 - global step: 200, epoch: 3, loss: 4.1686320304870605
+The OrderedVocab you are attempting to save contains holes for indices [12084], your vocabulary could be corrupted !
+2025-04-12 12:36:44.349 | INFO     | __main__:train_and_evaluate:179 - evaluation dev datasets accuracy: 0.8418430884184309, precision: 0.8403416349401096, recall: 0.8383771378269618, F1: 0.8392493753989959
+The OrderedVocab you are attempting to save contains holes for indices [12084], your vocabulary could be corrupted !
+2025-04-12 12:36:46.356 | INFO     | __main__:train_and_evaluate:210 - evaluation test datasets accuracy: 0.8830845771144279, precision: 0.8847060593900482, recall: 0.8810269021536627, F1: 0.8821915587452223
+2025-04-12 12:36:50.238 | INFO     | __main__:train_and_evaluate:151 - global step: 220, epoch: 3, loss: 3.83551025390625
+2025-04-12 12:36:54.141 | INFO     | __main__:train_and_evaluate:151 - global step: 240, epoch: 3, loss: 3.5551435947418213
+2025-04-12 12:36:58.108 | INFO     | __main__:train_and_evaluate:151 - global step: 260, epoch: 3, loss: 3.316894054412842
+2025-04-12 12:37:02.023 | INFO     | __main__:train_and_evaluate:151 - global step: 280, epoch: 4, loss: 3.1080477237701416
+2025-04-12 12:37:05.880 | INFO     | __main__:train_and_evaluate:151 - global step: 300, epoch: 4, loss: 2.926940679550171
+The OrderedVocab you are attempting to save contains holes for indices [12084], your vocabulary could be corrupted !
+2025-04-12 12:37:08.452 | INFO     | __main__:train_and_evaluate:179 - evaluation dev datasets accuracy: 0.8617683686176837, precision: 0.859495857217953, recall: 0.8612047283702213, F1: 0.8602389953477287
+The OrderedVocab you are attempting to save contains holes for indices [12084], your vocabulary could be corrupted !
+2025-04-12 12:37:10.444 | INFO     | __main__:train_and_evaluate:210 - evaluation test datasets accuracy: 0.8855721393034826, precision: 0.887532956685499, recall: 0.8833743199940383, F1: 0.8846470544202409
+2025-04-12 12:37:14.416 | INFO     | __main__:train_and_evaluate:151 - global step: 320, epoch: 4, loss: 2.7678287029266357
+2025-04-12 12:37:18.265 | INFO     | __main__:train_and_evaluate:151 - global step: 340, epoch: 4, loss: 2.6257553100585938
+2025-04-12 12:37:22.150 | INFO     | __main__:train_and_evaluate:151 - global step: 360, epoch: 5, loss: 2.4977400302886963
+2025-04-12 12:37:26.019 | INFO     | __main__:train_and_evaluate:151 - global step: 380, epoch: 5, loss: 2.3825647830963135
+2025-04-12 12:37:29.950 | INFO     | __main__:train_and_evaluate:151 - global step: 400, epoch: 5, loss: 2.2765748500823975
+The OrderedVocab you are attempting to save contains holes for indices [12084], your vocabulary could be corrupted !
+2025-04-12 12:37:32.481 | INFO     | __main__:train_and_evaluate:179 - evaluation dev datasets accuracy: 0.8555417185554172, precision: 0.8531683588725288, recall: 0.8556243712273641, F1: 0.8541298655742223
+2025-04-12 12:37:33.352 | INFO     | __main__:train_and_evaluate:210 - evaluation test datasets accuracy: 0.8930348258706468, precision: 0.8924851190476191, recall: 0.8930993367613086, F1: 0.8927421306379255
+2025-04-12 12:37:37.238 | INFO     | __main__:train_and_evaluate:151 - global step: 420, epoch: 5, loss: 2.1814324855804443
+2025-04-12 12:37:41.153 | INFO     | __main__:train_and_evaluate:151 - global step: 440, epoch: 6, loss: 2.0957400798797607
+2025-04-12 12:37:45.065 | INFO     | __main__:train_and_evaluate:151 - global step: 460, epoch: 6, loss: 2.0147199630737305
+2025-04-12 12:37:49.048 | INFO     | __main__:train_and_evaluate:151 - global step: 480, epoch: 6, loss: 1.9399696588516235
+2025-04-12 12:37:52.944 | INFO     | __main__:train_and_evaluate:151 - global step: 500, epoch: 6, loss: 1.872081995010376
+The OrderedVocab you are attempting to save contains holes for indices [12084], your vocabulary could be corrupted !
+2025-04-12 12:37:55.512 | INFO     | __main__:train_and_evaluate:179 - evaluation dev datasets accuracy: 0.8754669987546699, precision: 0.8732710280373832, recall: 0.8766976861167002, F1: 0.8744292237442922
+The OrderedVocab you are attempting to save contains holes for indices [12084], your vocabulary could be corrupted !
+2025-04-12 12:37:57.546 | INFO     | __main__:train_and_evaluate:210 - evaluation test datasets accuracy: 0.8805970149253731, precision: 0.8800526041537431, recall: 0.8804679931440494, F1: 0.8802383316782523
+2025-04-12 12:38:01.510 | INFO     | __main__:train_and_evaluate:151 - global step: 520, epoch: 6, loss: 1.8088977336883545
+2025-04-12 12:38:05.427 | INFO     | __main__:train_and_evaluate:151 - global step: 540, epoch: 7, loss: 1.7496333122253418
+2025-04-12 12:38:09.377 | INFO     | __main__:train_and_evaluate:151 - global step: 560, epoch: 7, loss: 1.6934542655944824
+2025-04-12 12:38:13.317 | INFO     | __main__:train_and_evaluate:151 - global step: 580, epoch: 7, loss: 1.642211675643921
+2025-04-12 12:38:17.315 | INFO     | __main__:train_and_evaluate:151 - global step: 600, epoch: 7, loss: 1.5938082933425903
+The OrderedVocab you are attempting to save contains holes for indices [12084], your vocabulary could be corrupted !
+2025-04-12 12:38:19.848 | INFO     | __main__:train_and_evaluate:179 - evaluation dev datasets accuracy: 0.8580323785803238, precision: 0.8558237132787885, recall: 0.8593184104627767, F1: 0.8569137562366358
+2025-04-12 12:38:20.735 | INFO     | __main__:train_and_evaluate:210 - evaluation test datasets accuracy: 0.8781094527363185, precision: 0.877970297029703, recall: 0.879312914524182, F1: 0.8779818502802985
+2025-04-12 12:38:24.659 | INFO     | __main__:train_and_evaluate:151 - global step: 620, epoch: 8, loss: 1.5483636856079102
+2025-04-12 12:38:28.675 | INFO     | __main__:train_and_evaluate:151 - global step: 640, epoch: 8, loss: 1.5052547454833984
+2025-04-12 12:38:32.618 | INFO     | __main__:train_and_evaluate:151 - global step: 660, epoch: 8, loss: 1.464810848236084
+2025-04-12 12:38:36.515 | INFO     | __main__:train_and_evaluate:151 - global step: 680, epoch: 8, loss: 1.4270801544189453
+2025-04-12 12:38:40.516 | INFO     | __main__:train_and_evaluate:151 - global step: 700, epoch: 8, loss: 1.3911164999008179
+The OrderedVocab you are attempting to save contains holes for indices [12084], your vocabulary could be corrupted !
+2025-04-12 12:38:43.067 | INFO     | __main__:train_and_evaluate:179 - evaluation dev datasets accuracy: 0.8667496886674969, precision: 0.8645423289650704, recall: 0.8680080482897384, F1: 0.8656697283564588
+2025-04-12 12:38:43.929 | INFO     | __main__:train_and_evaluate:210 - evaluation test datasets accuracy: 0.8656716417910447, precision: 0.8660049013540609, recall: 0.8672777405171772, F1: 0.8655884683970676

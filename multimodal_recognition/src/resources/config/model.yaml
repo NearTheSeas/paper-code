@@ -1,0 +1,46 @@
+# environment
+environment:
+  devices: 0
+
+# model
+model:
+  pretrain_model: src/states/unsupervised/checkpoints/model_8500
+  model: nghuyong/ernie-3.0-base-zh
+  drop_prob: 0.1
+  hidden_size: 768
+  video_size: 177
+  audio_size: 25
+  intermediate_size: 2048
+
+# data
+data:
+  data_path: src/resources/data/unaligned-001-np.pkl
+  max_length: 128
+
+# log
+log:
+  log_dir: src/states/emotion/logs
+  log_name: model_performance
+  logging_steps: 20
+
+# save
+save:
+  save_dir: src/states/emotion/checkpoints/
+  saved_model_dir: src/states/emotion/checkpoints/best_model
+
+# optimizer
+optimizer:
+  learning_rate: 5e-5
+  weight_decay: 0.0
+
+# scheduler
+scheduler:
+  warmup_ratio: 0.1
+
+# configs
+configs:
+  batch_size: 32
+  train_epochs: 8
+  gradient_accumulation_steps: 1
+  max_grad_norm: 3.0
+  valid_steps: 100

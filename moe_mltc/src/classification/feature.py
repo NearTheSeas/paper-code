@@ -28,7 +28,7 @@ class FeatureEngineering(object):
     def create_data_loader(self, file_path: str, batch_size: int) -> DataLoader:
         """
         创建数据收集器
-        :param mode: 模型，train, dev, test
+        :param mode: 模型, train, dev, test
         :param file_path: 文件的地址
         :param batch_size: 批次的大小
         :return:

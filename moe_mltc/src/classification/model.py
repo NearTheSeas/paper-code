@@ -83,7 +83,7 @@ class MOEMultiClassification(nn.Module):
         # MOE层，每个专家获取表征
         batch_size, sequence_length, hidden_dim = hidden_states.shape
         coord = (
-            torch.unsqueeze(torch.arange(0, batch_size)
+            torch.unsqueeze(torch.range(0, batch_size - 1)
                             * sequence_length, dim=1)
             .to(input_ids.device)
             .int()
